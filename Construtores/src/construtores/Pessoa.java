@@ -25,6 +25,24 @@ public class Pessoa {
        this.nome = nome; 
     }
     
+    public Pessoa(String nome, int idade){
+      this.nome = nome;
+      this.idade = idade;
+    }
+    
+    public Pessoa(String nome, int idade, float peso){
+       this.nome = nome;
+       this.idade = idade;
+       this.peso = peso;
+    }
+
+    public Pessoa(String nome, int idade, float peso, float altura) {
+        this.nome = nome;
+        this.idade = idade;
+        this.peso = peso;
+        this.altura = altura;
+    }
+        
     public Pessoa(){
         //
     }

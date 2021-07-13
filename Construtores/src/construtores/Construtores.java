@@ -21,8 +21,13 @@ public class Construtores {
        System.out.print(p1.toString());
        */
        Pessoa p2 = new Pessoa("Antonio");
-       System.out.print(p2.toString());
-        
+       System.out.println(p2.toString());
+       
+       Pessoa p3 = new Pessoa("Joao",50);
+       System.out.println(p3.toString()); 
+       
+       Pessoa p4 = new Pessoa("Pedro",15, 65);
+       System.out.println(p4.toString());
     }
     
 }
