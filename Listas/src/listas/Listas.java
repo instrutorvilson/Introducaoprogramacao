@@ -41,7 +41,7 @@ public class Listas {
         nome = JOptionPane.showInputDialog("Informe objeto que deseja exlcuir");
         System.out.println(listaString.remove(nome));
         System.out.println(listaString);
-        listaString.se
+        listaString.set(id, nome);
     }
     
 }
